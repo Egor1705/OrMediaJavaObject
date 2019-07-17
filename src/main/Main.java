@@ -10,6 +10,9 @@ public class Main{
 		System.out.println(a1.getName()+" "+ a1.getValueA());
 		System.out.println(a2.getName()+" "+ a2.getValueA());
 		
+		ClassA a = new ClassA("G",5);
+		ClassB bg = new ClassB(a.getName(),6,a.getValueA());
+		System.out.println(bg.toString());
 		
 		ClassB b = new ClassB("Vasa",1,1);
 		System.out.println(b.getName());
