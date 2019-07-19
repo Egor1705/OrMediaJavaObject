@@ -2,8 +2,8 @@ package main;
 
 public class ClassA {
 
-	protected int valueA;
-	protected String name;
+	private int valueA;
+	private String name;
 	
 	public ClassA() {
 		
